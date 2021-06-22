@@ -1,4 +1,4 @@
-# dmtuominen22.github.io
+# Denise Tuominen Professional Portfolio
 
 ## Purpose
 A website that offers samples of my work
@@ -8,7 +8,7 @@ A website that offers samples of my work
 * CSS
 
 ## Website
-https://
+https://dmtuominen22.github.io/
 
 ## Contribution
 Made by Denise Tuominen
