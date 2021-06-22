@@ -1,18 +1,16 @@
 # dmtuominen22.github.io
-#Professional Portfolio
 
-##Purpose
-A website to show my work
+## Purpose
+A website that offers samples of my work
 
-##Built With
-*HTML
-*CSS
+## Built With
+* HTML
+* CSS
 
-##Website
-placeholder until I get it
+## Website
+https://
 
 ## Contribution
 Made by Denise Tuominen
 
-### ©️2021 Denise Tuominen Portfolio
-
+### ©️2021 Denise Tuominen
