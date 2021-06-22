@@ -1,11 +1,11 @@
 # dmtuominen22.github.io
 #Professional Portfolio
 
-#Purpose
-a website to show my work
+##Purpose
+A website to show my work
 
 ##Built With
-*html
+*HTML
 *CSS
 
 ##Website
