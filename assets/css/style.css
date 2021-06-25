@@ -11,7 +11,7 @@
 }
 
 body {
-    color: var(tertiary-color);
+    color: var(secondary-color);
     font-family: Helvetia, Arial, Sans-serif;
   }
 
@@ -84,27 +84,16 @@ header {
 footer {
     background: navy;
     padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     width: 100%;
   }
   
-  footer h2 {
+  footer h3 {
     color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
   }
   
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: var(--secondary-color);
-  }
-  /* END FOOTER STYLES */
+   /* END FOOTER STYLES */
   
   /* STYLE ALL SECTION TAGS */
   section {
@@ -160,38 +149,62 @@ footer {
   }
   
   .secondary-border {
-    border-color: var(--tertiary-color);
+    border-color: var(--secondary-color);
   }
   /* SECTION TITLE STYLES END */
 
 /*ABOUT ME START */
-
-
-
 .intro img {
     float:left; margin: 4px;
     margin-right: 15px;
     border: 5px solid navy;
 }
 
-/* UTILITIES */
-.text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  .flex-row {
+  /* end of about me*/
+
+  /* start of projects projects*/
+  .projects {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .projects {
+    margin: 20px;
+    flex: 1;
+    }
+  
+  .projects img {
+    width: 100%;
+
+  }
+  
+  .about-projects {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .about-projects h3 {
+    font-size: 28px;
+  }
+  
+  .about-projects h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .about-projects p {
+    font-size: 17px;
   }
 
-  /*
+  /*end of Projects*/
 
   /* REACH OUT STYLES START */
   .contact h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
   }
   
   .contact-info {
@@ -213,9 +226,29 @@ footer {
     color: white;
   }
   
-
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+  
   .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+  }
+  
+
+
+  /* UTILITIES */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
