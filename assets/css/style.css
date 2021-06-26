@@ -86,22 +86,22 @@ header {
 
 /* FOOTER STYLES START */
 footer {
-    background: var(--primary-color);
-    padding: 25px 20px;
-    width: 100%;
-  }
-  
-  footer h3 {
-    color: var(--secondary-color);
-    font-size: 25px;
-    margin: 0;
-  }
+  background: var(--primary-color);
+  padding: 25px 20px;
+  width: 100%;
+}
+
+footer h3 {
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin: 0;
+}
 
 footer div {
-  text-align: right;
-  color:var(--secondary-color)
+text-align: right;
+color:var(--secondary-color)
 }
-  
+    
 /* END FOOTER STYLES */
   
   
