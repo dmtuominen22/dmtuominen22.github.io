@@ -87,15 +87,20 @@ header {
 /* FOOTER STYLES START */
 footer {
     background: var(--primary-color);
-    padding: 40px 35px;
+    padding: 25px 20px;
     width: 100%;
   }
   
   footer h3 {
     color: var(--secondary-color);
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
   }
+
+footer div {
+  text-align: right;
+  color:var(--secondary-color)
+}
   
 /* END FOOTER STYLES */
   
@@ -148,11 +153,20 @@ footer {
 /* SECTION TITLE STYLES END */
 
 /*ABOUT ME START */
-.intro img {
-    float:left; margin: 4px;
-    margin-right: 15px;
-    border: 5px solid navy;
+.intro p {
+  line-height: 1.7;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
 }
+
+.intro img {
+  float:left; margin: 15px;
+  position: relative; top: -40px;
+  border: 5px solid navy;
+}
+
  /* end of about me*/
 
  /* start of projects projects*/
@@ -253,3 +267,77 @@ footer {
 .flex-row {
   display: flex;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-secondary, .hero-form {
+    width: 100%;
+  }
+  
+  .hero-secondary {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .project {
+    flex: 0 70%;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
+  }
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+   .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .project {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  }
