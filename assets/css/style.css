@@ -208,10 +208,17 @@ footer div {
 }
 
 #first-picture {
-  width: 525px;
-  height: 275px;
+  width: 100%;
+  height: 375px;
   opacity: 1.0;
 }  
+.project-name1 {
+  text-align: center;
+}
+
+.project-role1 {
+  text-align: center;
+}
 
 .project-info {
    padding: 25px;
