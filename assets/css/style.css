@@ -111,7 +111,7 @@ text-align: right;
 
 /*HERO STYLES START */
 .hero {
-  background-image: url("../images/hero-bg.jpeg");
+  background-image: url("../images/river-and-ramp.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -134,7 +134,7 @@ text-align: right;
 
 .hero p {
   text-align: center;
-  color: white
+  color: black;
        
 }
 /*HERO STYLES ENDS   */
